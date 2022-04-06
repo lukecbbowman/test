@@ -1,0 +1,341 @@
+.test1 {
+    left: 30px;
+}
+
+/*userInput{
+    background-color: aqua;
+    height: 30px;
+    border-radius: 20;
+    border-width: 50px;
+}*/
+
+.header {
+    padding: 20px,20px,20px,20x;
+    background-color: aqua;
+    position: absolute;
+    left: 200px;
+    font-size: 60px;
+    top: 30px;
+}
+
+
+
+.nav {
+    grid-row: 1/3;
+    grid-column: 1/10;
+    background-color: white;
+    color: white;
+    border: 1px solid white;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    height: 100px;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*padding: 10px 10px 10px 10px;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;*/
+  }
+  
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 600px;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 60px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 30px;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    background: white;
+    width: 250px;
+    right: 1100px;
+  }
+  
+  .contactlink {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .item1 {
+    align-self: auto;
+  }
+  
+  .item2 {
+    align-self: auto;
+  }
+  
+  .item3 {
+    align-self: auto;
+  }
+  
+  .item4 {
+    align-self: auto;
+  }
+  
+  .item5 {
+    align-self: auto;
+  }
+  
+  .img1 {
+    height: 70px;
+    width: 70px;
+    /*left: 20px;
+    position: absolute;*/
+  }
+  
+  .liber {
+    /*position: absolute;
+    right: 885px;
+    top: 30px;*/
+    color: #56565B;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .home {
+    /*position: absolute;
+    right: 35px;
+    top: 30px;*/
+    color: #56565B;
+    font-size: 30px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .about {
+    /*position: absolute;
+    right: 305px;
+    top: 30px;*/
+    color: #56565B;
+    font-size: 30px;
+  }
+  
+  .candidates {
+    /*position: absolute;
+    right: 585px;
+    top: 30px;*/
+    color: #56565B;
+    font-size: 30px;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    grid-row: 4/10;
+    grid-column: 1/10;
+    right: 0px;
+    left: 0px;
+    height: 500px;
+  }
+  
+  .emp3 {
+    z-index: 3;
+  }
+  
+  
+  .leftimg {
+    /*grid-column: 3/4;
+    grid-row: 4/10;*/
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /*
+  .actualleftimg {
+    width: 479px;
+    height: 350px;
+    position: absolute;
+    top: 90px;
+    left: 136px;
+  }
+  */
+  .actualleftimg {
+    width: 75%;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    /*top: 90px;
+    left: 13%;
+    z-index: 2;*/
+  }
+  
+  .whiteleft {
+    width: 100%;
+    z-index: 1;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    background-color: white;
+  }
+  
+  
+  .actualrightimg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    /*top: 90px;
+    //left: 750px;*/
+  }
+  
+  .leftp {
+    position: absolute;
+    background-color: white;
+    z-index: 0;
+    grid-row: 11/12;
+    top: 410px;
+    width: 35%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+  }
+  
+  
+  
+  .rightimg {
+    background-color: white;
+    z-index: 2;
+    padding: 150px 0 150px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .rightp {
+    position: absolute;
+    background-color: white;
+    grid-row: 11/12;
+    top: 410px;
+    width: 35%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+  
+  }
+  
+  
+  
+  .emp4 {
+    grid-row: 4/10;
+    width: 10%;
+  }
+  
+  .emp5 {
+    grid-row: 4/10;
+    width: 10%;
+  }
+  
+  .item21 {
+    align-self: auto;
+    width: 10%
+  }
+  
+  .item22 {
+    align-self: auto;
+    width: 35%;
+  }
+  
+  .item23 {
+    align-self: auto;
+  }
+  
+  .item24 {
+    align-self: auto;
+    width: 10%;
+  }
+  
+  .item25 {
+    align-self: auto;
+    width: 35%;
+  }
+  
+  .item26 {
+    align-self: auto;
+  }
+  
+  .item27 {
+    align-self: auto;
+    width: 10%;
+  }
+  
+  .spacer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    left: 12.5%;
+  }
+  
+  .spacer1 {
+    grid-row: 13/14;
+    top: 2100px;
+  }
+  
+  .spacer2 {
+    grid-row: 15/16;
+    top: 1500px;
+  }
+  
+  .spacer3 {
+    grid-row: 15/16;
+    top: 750px;
+  }
+  
+  
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    top: 3130px;
+    width: 50%;
+    left: 23%;
+  }
