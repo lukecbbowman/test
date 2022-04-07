@@ -2,6 +2,7 @@ var username=[];
 var password=[];
 document.getElementById("ghost").style.visibility = "hidden";
 document.getElementById("success").style.display="none";
+var test="test";
 
 function addUser(){
     var userHold=document.getElementById("username").value;

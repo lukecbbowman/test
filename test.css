@@ -18,7 +18,10 @@
     top: 30px;
 }
 
-
+.test {
+  position: absolute;
+  left: 50px;
+}
 
 .nav {
     grid-row: 1/3;
